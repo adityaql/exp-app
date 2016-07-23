@@ -12,9 +12,7 @@ app.get('/main',function(req,res) {
     res.render('main');
 });
 
-app.get('/main',function(req,res) {
-    res.render('main');
-});
+
 
 
 app.listen(3000,function() {
