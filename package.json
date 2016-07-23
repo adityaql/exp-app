@@ -1,0 +1,15 @@
+{
+  "name": "smartqueues",
+  "version": "1.0.0",
+  "description": "this is about hackapalooza idea",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vijay reddy",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.14.0"
+  }
+}

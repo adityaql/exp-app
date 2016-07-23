@@ -1,0 +1,56 @@
+
+body {
+    font-family: Helvetica;
+    font-size: 14px;
+    height: 100%;
+}
+
+ul.colors li {
+    float: left;
+    width: 16.66667%;
+    height: 10px;
+}
+ul.colors{
+    padding-left: 0px;
+}
+ul li a{
+    color: black;
+    font-size: 18px;
+}
+ul{
+    list-style-type: none;
+}
+ul.colors li:nth-child(1) {
+    background-color: #6c9f2e;
+}
+ul.colors li:nth-child(2) {
+    background-color: #1f79ac;
+}
+ul.colors li:nth-child(3) {
+    background-color: #0c4569;
+}
+ul.colors li:nth-child(4) {
+    background-color: #ff7800;
+}
+ul.colors li:nth-child(5) {
+    background-color: #b5121b;
+}
+ul.colors li:nth-child(6) {
+    background-color: #551387;
+}
+
+.navigationbar .custom{
+    background-color:white;
+}
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.navbar-nav{
+    padding-top: 15px;
+}
+.marketing-icon-small{
+    max-width: 100px;
+    max-height: 100px;
+}
