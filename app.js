@@ -12,6 +12,10 @@ app.get('/main',function(req,res) {
     res.render('main');
 });
 
+app.get('/main',function(req,res) {
+    res.render('main');
+});
+
 
 app.listen(3000,function() {
     console.log('listening on 3000');
