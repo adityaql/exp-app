@@ -9,16 +9,20 @@
         }
     }
     app.config(function ($stateProvider,$urlRouterProvider) {
-
+        $urlRouterProvider.otherwise('/');
         $stateProvider
             .state('main',{
                 url: '/main',
-                templateUrl: 'views/main.ejs',
+                templateUrl: 'main',
                 controller: mainC
             })
             .state('queue',{
                 url: '/queue',
                 templateUrl: 'queue'
+            })
+            .state('homepage',{
+                url: '/homepage',
+                templateUrl: 'homepage'
             })
     })
 })();
